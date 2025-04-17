@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dots -->
+  <circle cx="128" cy="128" r="32" fill="#00FFA3">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="384" cy="128" r="32" fill="#00FFA3">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main N shape with gradient -->
+  <path d="M128 192L128 384L192 384L192 256L320 384L384 384L384 192L320 192L320 320L192 192L128 192Z" fill="url(#neon-gradient)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="neon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFA3"/>
+      <stop offset="100%" style="stop-color:#00D4FF"/>
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+</svg> 
