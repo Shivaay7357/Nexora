@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nexora/static/css/main.6acb49cb.css",
+    "main.js": "/Nexora/static/js/main.ef9786bc.js",
+    "static/js/453.68693753.chunk.js": "/Nexora/static/js/453.68693753.chunk.js",
+    "index.html": "/Nexora/index.html",
+    "main.6acb49cb.css.map": "/Nexora/static/css/main.6acb49cb.css.map",
+    "main.ef9786bc.js.map": "/Nexora/static/js/main.ef9786bc.js.map",
+    "453.68693753.chunk.js.map": "/Nexora/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acb49cb.css",
+    "static/js/main.ef9786bc.js"
+  ]
+}
